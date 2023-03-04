@@ -59,6 +59,6 @@ public class ShoppingListDb : DbContext
 public class Item
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string? Name { get; set; }
     public int Priority { get; set; }
 }
