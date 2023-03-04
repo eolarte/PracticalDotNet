@@ -1,6 +1,6 @@
 ## Shopping list application with ASP.NET Core 
 
-This appcation is a basic example of modern Web Api development.
+This application is a basic example of modern Web Api development.
 
 It showcases:
 - Minimal APIs
@@ -18,7 +18,7 @@ It showcases:
 
 To run the Api you can use one of the following options:
 * **Visual Studio or Rider** - Select QuickApi as starting project and click Run or Debug.
-* **Terminal or CMD** - Open your console or terminal and navigate to [QuickApi](QuickApi/) folder and run:
+* **Terminal or CMD** - Open your console or terminal and navigate to [QuickApi](QuickApi) folder and run:
   ```
   dotnet run -lp http
   ```
@@ -26,7 +26,7 @@ To run the Api you can use one of the following options:
 
 * **Docker Compose** - Open your console or terminal, navigate to the root folder of this project and run the following commands:
 
-1. Open your console or terminal and navigate to [QuickApi](QuickApi/).
+1. Open your console or terminal and navigate to [QuickApi](QuickApi).
 2. Build a docker image:
     ```
     docker build -t quick-api .
